@@ -1,0 +1,41 @@
+.App {
+  height: 100%;
+  width: 100%;
+}
+.operation {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.operation button {
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.showData {
+  position: absolute;
+  top: 50px;
+  right: 8px;
+  background: #fff;
+  padding: 8px;
+}
+
+.showSearch {
+  position: absolute;
+  top: 50px;
+  left: 8px;
+  background: #fff;
+  padding: 8px;
+}
+
+.searchDiv {
+  position: absolute;
+  top: 8px;
+  right: 50%;
+  transform: translateX(50%);
+}
+.searchDiv button {
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 8px;
+}
